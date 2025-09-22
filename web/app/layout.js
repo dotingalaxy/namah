@@ -31,7 +31,10 @@ export default function RootLayout({ children }) {
           <div style={{maxWidth:'1080px', margin:'0 auto', display:'flex', alignItems:'center', justifyContent:'space-between', gap:'1rem'}}>
             <a href="/" style={{display:'flex', alignItems:'center', gap:'.5rem', color:'#111', textDecoration:'none'}}>
               <img src="/Logo.jpeg" alt="NAMAH logo" style={{height:'40px', width:'40px', objectFit:'cover', borderRadius:'4px'}} />
-              <span style={{fontWeight:700, fontSize:'1.25rem', letterSpacing:'0.02em'}}>NAMAH</span>
+              <span style={{display:'grid'}}>
+                <span style={{fontWeight:700, fontSize:'1.25rem', letterSpacing:'0.02em'}}>NAMAH</span>
+                <span style={{fontSize:'0.8rem', color:'#555', lineHeight:1, marginTop:'2px'}}>Namboothiri Association for Maintaining Ancestry and Heritage</span>
+              </span>
             </a>
             <nav style={{display:'flex', gap:'1rem', fontSize:'0.95rem'}}>
               <a href="/">Home</a>
