@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <header style={{padding:'1rem', borderBottom:'1px solid #eee', display:'flex', alignItems:'center', gap:'1rem'}}>
-          <img src="https://raw.githubusercontent.com/dotingalaxy/namah/main/Logo.jpeg" alt="NAMAH Logo" style={{height:'56px'}} />
+          <img src="/Logo.jpeg" alt="NAMAH Logo" style={{height:'56px'}} />
           <div>
             <strong>NAMAH Association</strong>
             <div style={{fontSize:'0.9rem', color:'#555'}}>Namboothiri Association for Maintaining Ancestry and Heritage</div>
