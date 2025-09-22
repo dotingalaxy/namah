@@ -29,7 +29,10 @@ export default function RootLayout({ children }) {
       <body>
         <header style={{padding:'0.75rem 1rem', borderBottom:'1px solid #eee'}}>
           <div style={{maxWidth:'1080px', margin:'0 auto', display:'flex', alignItems:'center', justifyContent:'space-between', gap:'1rem'}}>
-            <a href="/" style={{fontWeight:700, fontSize:'1.25rem', letterSpacing:'0.02em', color:'#111'}}>NAMAH</a>
+            <a href="/" style={{display:'flex', alignItems:'center', gap:'.5rem', color:'#111', textDecoration:'none'}}>
+              <img src="/Logo.jpeg" alt="NAMAH logo" style={{height:'40px', width:'40px', objectFit:'cover', borderRadius:'4px'}} />
+              <span style={{fontWeight:700, fontSize:'1.25rem', letterSpacing:'0.02em'}}>NAMAH</span>
+            </a>
             <nav style={{display:'flex', gap:'1rem', fontSize:'0.95rem'}}>
               <a href="/">Home</a>
               <a href="/about">About</a>
