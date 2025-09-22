@@ -49,12 +49,12 @@ export default function HomePage() {
             margin: '0 auto',
             display: 'grid',
             gap: '1.5rem',
-            gridTemplateColumns: 'minmax(0,1fr) minmax(0,0.8fr)',
+            gridTemplateColumns: 'minmax(0,1fr)',
             alignItems: 'start',
           }}
         >
           <div>
-            <h2 style={{ fontSize: '1.75rem', margin: '0 0 0.5rem' }}>Who is a Namboothiri</h2>
+
             <p style={{ lineHeight: 1.8, color: '#333', margin: '0 0 0.5rem' }}>
               The Namboothiri community carries a living heritage rooted in Kerala’s Vedic traditions.
               Today, families across North America continue to celebrate culture, language, learning, and service.
@@ -63,26 +63,10 @@ export default function HomePage() {
               <li>Custodians of Vedic traditions originating in Kerala</li>
               <li>Distinct rituals, customs, and lineage practices</li>
               <li>Emphasis on learning, arts, and community service</li>
-              <li>A living heritage evolving in the Canadian context</li>
+              <li>A living heritage evolving in the North American context</li>
             </ul>
           </div>
-          <div
-            style={{
-              background: '#F7F1E5',
-              border: '1px solid #eadfc7',
-              borderRadius: 12,
-              padding: '1rem',
-              display: 'grid',
-              placeItems: 'center',
-              minHeight: '220px',
-            }}
-          >
-            <img
-              src="/Logo.jpeg"
-              alt="NAMAH emblem"
-              style={{ height: '120px', width: '120px', objectFit: 'contain', opacity: 0.9 }}
-            />
-          </div>
+
         </div>
       </section>
     </>
