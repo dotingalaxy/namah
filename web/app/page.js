@@ -57,13 +57,12 @@ export default function HomePage() {
 
             <p style={{ lineHeight: 1.8, color: '#333', margin: '0 0 0.5rem' }}>
               The Namboothiri community carries a living heritage rooted in Kerala’s Vedic traditions.
-              Today, families across North America continue to celebrate culture, language, learning, and service.
             </p>
             <ul style={{ lineHeight: 1.8, color: '#333', paddingLeft: '1.2rem', margin: 0 }}>
               <li>Custodians of Vedic traditions originating in Kerala</li>
               <li>Distinct rituals, customs, and lineage practices</li>
               <li>Emphasis on learning, arts, and community service</li>
-              <li>A living heritage evolving in the North American context</li>
+
             </ul>
           </div>
 
