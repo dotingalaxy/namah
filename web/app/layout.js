@@ -15,8 +15,8 @@ export default function RootLayout({ children }) {
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Organization',
-              name: 'NAMAH Association',
-              legalName: 'NAMAH Association',
+              name: 'NAMAH',
+              legalName: 'Namboothiri Alliance for Maintaining Ancestry and Heritage',
               identifier: {
                 '@type': 'PropertyValue',
                 propertyID: 'Corporations Canada #',
