@@ -8,7 +8,7 @@ export default function AboutPage() {
       <h1 style={{fontSize:'2rem', marginBottom:'1rem'}}>About Us</h1>
 
       <p style={{lineHeight:1.7, color:'#333', marginBottom:'1rem'}}>
-        NAMAH stands for <strong>Namboothiri Association for Maintaining Ancestry and Heritage</strong>. We are a community-led, non-profit organization dedicated to preserving Namboothiri cultural heritage and building a supportive community across Canada.
+        NAMAH stands for <strong>Namboothiri Alliance for Maintaining Ancestry and Heritage</strong>. We are a community-led, non-profit organization dedicated to preserving Namboothiri cultural heritage and building a supportive community across Canada.
       </p>
 
       <p style={{lineHeight:1.7, color:'#333', marginBottom:'1rem'}}>
