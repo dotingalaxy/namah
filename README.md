@@ -32,6 +32,12 @@ This repository contains the source code for the NAMAH Association website - a m
 ## Development Status
 🚧 **In Development** - Website is currently being planned and built.
 
+## Event Registration
+
+- Explore the new **Electronics Masterclass for Kids** event page at `/events/electronics-masterclass-for-kids` for a full 12-month curriculum overview.
+- The registration form is implemented with Netlify Forms (`name="electronics-masterclass"`). Successful submissions redirect to `/events/electronics-masterclass-for-kids/success`.
+- After deploying to Netlify, monitor form submissions in the Netlify dashboard under **Forms → electronics-masterclass**.
+
 ## Contact
 For questions about the website or NAMAH Association, please reach out through our official channels.
 
