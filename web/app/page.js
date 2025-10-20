@@ -9,10 +9,7 @@ export default function HomePage() {
         }}
       >
         <div className="layout-container hero__content">
-          <p className="hero__eyebrow" style={{ color: 'rgba(255,255,255,0.78)' }}>
-            Namboothiri Alliance for Maintaining Ancestry and Heritage
-          </p>
-          <h1 className="hero__heading">Preserving heritage. Empowering futures.</h1>
+          <h1 className="hero__heading">Preserving culture, celebrating community.</h1>
           <p className="hero__description">
             NAMAH brings the Namboothiri community together through cultural celebrations, educational programs, and support networks for families across Canada.
           </p>
