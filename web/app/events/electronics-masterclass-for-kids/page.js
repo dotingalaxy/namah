@@ -8,7 +8,7 @@ const quickFacts = [
   { label: 'Duration', value: '24 classes across 12 months (2 per month)' },
   { label: 'Format', value: 'Hands-on labs · 60-minute sessions' },
   { label: 'Ages', value: 'Grades 3–12 (leveled instruction)' },
-  { label: 'Location', value: 'Toronto, ON · NAMAH Community Hub' },
+  { label: 'Location', value: 'Milton, ON (exact location will be shared later)' },
 ];
 
 const enrollmentSteps = [
